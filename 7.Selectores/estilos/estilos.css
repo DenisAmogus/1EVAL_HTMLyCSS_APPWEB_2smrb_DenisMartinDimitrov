@@ -22,22 +22,49 @@ p#cochina{
 }
 
 div.caja{
+    
     border-color: 5px;
-    border-width: 5px;
+    border-width: 100px;
     margin-right: 150px;
     border-style:ridge;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 500px;
+    border-image-source: url(./que\ duro\ mario\ satos.png);
+    border-image-repeat: repeat;
+    border-image-slice: 100;
 
 }
 
 p.dylanRocha{
 text-align: center;
 text-shadow: 50px;
--webkit-text-stroke: 300px;
+-webkit-text-stroke:1px;
+border-bottom-right-radius: 50px;
 }
 
 div p{
     color: rgb(0, 0, 0);
+   
+
 }
 
+
 /*selectores hijos*/
+
+div.caja>p{
+    margin-bottom: 5px solid;
+    border-top-color: blue;
+    
+}
+
+div.divPolla{
+    border-color: 5px;
+    border-width: 100px;
+    margin-right: 150px;
+    border-style:ridge;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 500px;
+    border-image-source: url();
+
+}
  
