@@ -1,7 +1,7 @@
 /*selector universal*/
-*{
-    background-color: yellow;
-}
+
+   
+
 
 /*selector de elemento*/
 h1,h3{
@@ -65,6 +65,44 @@ div.divPolla{
     border-top-left-radius: 20px;
     border-top-right-radius: 500px;
     border-image-source: url();
+    font-size: 90px;
+    text-shadow: rgb(159, 131, 131) 8px 8px, rgb(255, 0, 51) -8px -8px;
 
 }
- 
+
+div.textocss{
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+span.polla{
+    word-spacing: 100px;
+}
+
+span.dolorsitamet{
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-size: 150%;
+    text-shadow: gray 0 3px 7px;
+    
+}
+
+@font-face {
+    font-family: "Pecita";
+    src: url("./pecita-5-4.otf");
+}
+
+ p.fuenteEjemplo{
+    font-family: Pecita;
+    font-size: 30px;
+ }
+
+
+  p.pedro{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+  
