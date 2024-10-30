@@ -1,6 +1,8 @@
 /*selector universal*/
 
    
+    
+   
 
 
 /*selector de elemento*/
@@ -105,4 +107,30 @@ span.dolorsitamet{
     font-size: 25px;
   }
 
+  ul.ulImagen{
+    list-style-image: url(./juansorduro.jpeg);
+    list-style-position:inside;
+    text-decoration:underline;
+    font-size: 50px;
+    padding: 50px;
+  }
+
+  h2.listaRoña{
+    font-size: 50px;
+    color: rgb(255, 1, 204);
+    font-family: "Bebas Neue", serif;
+  }
+  
+  p.pHover{
+    text-transform: uppercase;
+    background-color: white;
+    border: black 5px dotted;
+  }
+  p.pHover:hover{
+    background-color: black;
+    color: white;
+    border: rgb(246, 250, 4) 5px ridge;
+  }
+
+  
   
